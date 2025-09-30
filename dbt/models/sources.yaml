@@ -7,3 +7,5 @@ sources:
       - name: yellow_tripdata_full
       - name: green_tripdata_full
       - name: vehicle_emissions
+      - name: yellow_tripdata_2024
+      - name: green_tripdata_2024
