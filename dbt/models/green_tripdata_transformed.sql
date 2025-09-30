@@ -19,6 +19,6 @@ SELECT
     -- month of year
     EXTRACT(MONTH FROM green_taxi.lpep_pickup_datetime) AS month_of_year
 
-FROM "emissions"."main"."green_tripdata_2024" AS green_taxi
+FROM "emissions"."main"."green_tripdata_full" AS green_taxi
 JOIN "emissions"."main"."vehicle_emissions" AS vehicle_emissions
   ON vehicle_emissions.vehicle_type = 'green_taxi'
